@@ -1,4 +1,13 @@
 {
-    "name": "amir.h/composer-package",
-    "require": {}
+    "name": "amir/composer-package",
+    "require": {},
+    
+    "autoload": {
+        "psr-4": {
+            "amir\\App\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
 }
